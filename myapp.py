@@ -24,7 +24,18 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("you are stronger than you think")
       counter += 1
-
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouragement_list.append("Calm down and breathe in and out. Relax")
+      counter += 1
+    if each_word == "nervous":
+      feelings_list.append("nervous")
+      encouragement_list.append("Don't think too much.I believe you can do it")
+      counter += 1
+    if each_word == "bored":
+      feelings_list.append("bored")
+      encouragement_list.append("There's lots of fun things to do! You can read, draw, dance or even sing!")
+      counter += 1
   if counter == 0:
     
       output = "Sorry I don't really understand. My Jurassic brain can't process that fab vocab! Please use different words?"
